@@ -67,6 +67,7 @@
 	"dependencies": {
 		"core-js": "^3.26.0",
 		"jquery": "^3.6.1",
-		"reset-css": "^5.0.1"
+		"reset-css": "^5.0.1",
+		"typescript-plugin-css-modules": "^5.0.1"
 	}
 }

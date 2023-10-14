@@ -4,4 +4,30 @@
 @import "./global/global";
 @import "./global/animation";
 
+.list-weather-sounds {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	max-width: 730px;
+	width: 100%;
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+	margin: 0 auto;
+}
+
+.title-weather-sounds {
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	text-align: center;
+	font-size: 110px;
+	font-family: "Roboto-Bold";
+	color: $title-color;
+}
+
 @import "./global/media";
