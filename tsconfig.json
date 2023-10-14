@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"target": "ES2022",
+		"module": "ES6",
+		"sourceMap": true,
+		"outDir": "./dist",
+		"rootDir": "./app",
+		"removeComments": true,
+		"noImplicitOverride": true
+	}
+}

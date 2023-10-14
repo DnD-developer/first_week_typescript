@@ -1,0 +1,29 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"jest": true
+	},
+	"root": true,
+	"extends": [
+		"airbnb-base",
+		"airbnb-typescript/base",
+		"plugin:@typescript-eslint/recommended-requiring-type-checking",
+		"plugin:import/recommended",
+		"prettier"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaVersion": 12,
+		"sourceType": "module",
+		"project": "./tsconfig.json"
+	},
+	"plugins": ["@typescript-eslint", "only-warn"],
+	"rules": {
+		//typescript
+		"@typescript-eslint/no-var-requires": [0],
+		"@typescript-eslint/no-unused-vars": ["error"],
+		"no-unused-vars": "off",
+		"no-shadow": "off"
+	}
+}
