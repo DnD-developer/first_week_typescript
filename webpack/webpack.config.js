@@ -66,7 +66,7 @@ module.exports = {
 				]
 			},
 			{
-				test: /\.(woff|woff2|eot|ttf|otf)$/i,
+				test: /\.(woff|woff2|eot|ttf|otf|mp3)$/i,
 				type: "asset/resource",
 				generator: {
 					filename: `${PATHS.assets}fonts/[name]-[contenthash][ext]`
