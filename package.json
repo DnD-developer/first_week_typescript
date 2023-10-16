@@ -1,5 +1,5 @@
 {
-	"name": "@dnd-developer/first",
+	"name": "@dnd-developer/first_week_typescript",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
@@ -55,15 +55,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/DnD-developer/first.git"
+		"url": "https://github.com/DnD-developer/first_week_typescript.git"
 	},
 	"keywords": [],
 	"author": "@dnd-developer",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/DnD-developer/first/issues"
+		"url": "https://github.com/DnD-developer/first_week_typescript/issues"
 	},
-	"homepage": "https://github.com/DnD-developer/first#readme",
+	"homepage": "https://github.com/DnD-developer/first_week_typescript#readme",
 	"dependencies": {
 		"core-js": "^3.26.0",
 		"jquery": "^3.6.1",
