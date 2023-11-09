@@ -24,6 +24,7 @@ body {
 	position: relative;
 	overflow-x: hidden;
 	height: 100%;
+	backdrop-filter: blur(10px);
 }
 
 a {

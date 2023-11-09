@@ -7,6 +7,15 @@
 		"outDir": "./dist",
 		"rootDir": "./app",
 		"removeComments": true,
-		"noImplicitOverride": true
+		"noImplicitOverride": true,
+		"plugins": [
+			{
+				"name": "typescript-plugin-css-modules",
+				"options": {
+					"classnameTransform": "dashes"
+					// "customMatcher": "\\.module\\.(c|le|sa|sc)ss$"
+				}
+			}
+		]
 	}
 }
